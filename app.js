@@ -18,7 +18,7 @@ var app = shunter({
           port: 3000
         }
       },
-      // lists: {
+      // localhost: {
       //   default: {
       //     host: 'localhost',
       //     port: 3001

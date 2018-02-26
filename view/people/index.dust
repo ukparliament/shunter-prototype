@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{display_name}</title>
+</head>
+<body>
+  <ul>
+    {#people}
+    <li>
+      <h1>
+        <a href="beta.parliament.uk/{graph_id}">{name}</a>
+      </h1>
+      <p> {role}</p>
+      <p> {current_party}</p>
+    </li>
+    {/people}
+  </ul>
+</body>
+</html>
