@@ -12,24 +12,20 @@ var app = shunter({
     // Configure the proxy route, this should point to
     // where your back end application runs
     routes: {
-      localhost: {
-        default: {
-          host: 'localhost',
-          port: 3000
+      "localhost": {
+        "/\/people\/\w{8}/": {
+          "host": "localhost",
+          "port": 3001
+        },
+        "/\/people/": {
+          "host": "localhost",
+          "port": 3000
+        },
+        "default": {
+          "host": "localhost",
+          "port": 3002
         }
-      },
-      // localhost: {
-      //   default: {
-      //     host: 'localhost',
-      //     port: 3001
-      //   }
-      // },
-      // utilities: {
-      //   default: {
-      //     host: 'localhost',
-      //     port: 3002
-      //   }
-      // }
+      }
     }
 
 });
