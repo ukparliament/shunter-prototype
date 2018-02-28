@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>{display_name}</title>
-</head>
-<body>
-    <h1>{display_name}</h1>
-    <p>
-      {current_party} MP for
-      <a href="beta.parliament.uk/{constituency.graph_id}"> {constituency.name} </a>
-    </p>
-    <img src={image}>
-</body>
-</html>
+{! {>"layout"/} !}
+
+{! {<bodyContent} !}
+{>"{components}"/}
+<h1>{display_name}</h1>
+<p>
+  {current_party} MP for
+  <a href="beta.parliament.uk/{constituency.graph_id}"> {constituency.name} </a>
+</p>
+<img src={image}>
+{! {/bodyContent} !}

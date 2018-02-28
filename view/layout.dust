@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{title}</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="UK Parliament">
+</head>
+<body>
+    {! {>components__header/} !}
+    {>"{layout.page_template}"/}
+    {! {+bodyContent/} !}
+</body>
+</html>

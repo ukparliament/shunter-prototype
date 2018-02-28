@@ -13,17 +13,17 @@ var app = shunter({
     // where your back end application runs
     routes: {
       "localhost": {
-        "/\/people\/\w{8}/": {
-          "host": "localhost",
-          "port": 3001
-        },
-        "/\/people/": {
-          "host": "localhost",
-          "port": 3000
-        },
+        // "/\\/people\\/[a-zA-Z0-9]{8}\\/?/": {
+        //   "host": "localhost",
+        //   "port": 3001
+        // },
+        // "/\\/people\\/?/": {
+        //   "host": "localhost",
+        //   "port": 3000
+        // },
         "default": {
           "host": "localhost",
-          "port": 3002
+          "port": 5401
         }
       }
     }
