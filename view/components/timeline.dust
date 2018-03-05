@@ -8,7 +8,7 @@
   </div>
   <div class="dropdown__content">
     <div class="track">
-      {#components.timeline}
+      {#components.timeline.timeline-roles}
         <h2>{.time-period}</h2>
         <ul class="list--block">
           {#.roles}
@@ -24,20 +24,7 @@
             </li>
           {/.roles}
         </ul>
-      {/components.timeline}
+      {/components.timeline.timeline-roles}
     </div>
   </div>
 </div>
-
-      {! <h2>Held in the last 10 years</h2>
-      <ul class="list--block">
-        <li>
-          <div class="list--details">
-            <h5>{.role-title}</h5>
-            <p>{.role-type}</p>
-            <p>{.role-count}</p>
-            {#.role-dates}
-              <p>{.}</p>
-            {/.role-dates}
-          </div>
-        </li> !}

@@ -1,6 +1,6 @@
 <h2>Roles</h2>
 <ul class="list--pipe">
-  {#components.roles}
+  {#components.roles.role-list}
     <li>
       <div class="list--details">
         <h3 class="milli">{.role-type}</h3>
@@ -9,5 +9,5 @@
           <p>{.}</p>
         {/.role-dates}
     </li>
-  {/components.roles}
+  {/components.roles.role-list}
 </ul>

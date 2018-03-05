@@ -1,0 +1,14 @@
+<section>
+  <div class="container">
+    <div class="block--border__bottom">
+      <h2>Related links</h2>
+      <dl class="list--definition">
+        <dt>Website: </dt>
+        <dd><a href="{related-links.website}">{related-links.website}</a></dd>
+        <dt>Twitter: </dt>
+        <dd><a href="{related-links.twitter}">{related-links.twitter}</a></dd>
+      </dl>
+      <p>Diane Abbott’s official portrait is <a href="{related-links.media-url}">available to download</a>.</p>
+    </div>
+  </div>
+</section>

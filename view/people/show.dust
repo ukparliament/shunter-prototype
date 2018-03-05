@@ -11,16 +11,17 @@
         {components.subheading}
       </p>
       {>"components__{components.image.template}"/}
-      {>"components__{components.contact.template}"/}
-
-      <section>
-        <div class="container">
-          {>components__roles/}
-          {>components__timeline/}
-        </div>
-      </section>
-
-
     </div>
   </div>
+
+  {>"components__{components.contact.template}"/}
+
+  <section>
+    <div class="container">
+      {>"components__{components.roles.template}"/}
+      {>"components__{components.timeline.template}"/}
+    </div>
+  </section>
 </main>
+
+{>"components__{components.footer}"/}
