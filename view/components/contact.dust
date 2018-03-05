@@ -1,0 +1,44 @@
+<section>
+  <div class="container">
+    <div class="block">
+      <h2>Contact</h2>
+      <div class="dropdown">
+        <div class="dropdown__toggle">
+          <h3>
+            <a href="#">
+              When to contact an MP
+            </a>
+          </h3>
+        </div>
+        <div class="dropdown__content">
+          <p>MPs can help with issues that are the responsibility of UK Parliament. They represent their constituents and can help with issues such as:</p>
+          <ul>
+            <li>hospitals and the NHS</li>
+            <li>problems with benefits, pensions and national insurance</li>
+            <li>immigration</li>
+            <li>school closures and funding</li>
+            <li>transport facilities</li>
+          </ul>
+          <p><a href="/who-should-i-contact-with-my-issue">Who else can help with my issue?</a></p>
+        </div>
+        <p>Please include your postcode when contacting your MP.</p>
+      </div>
+
+      <dl class="list--definition">
+        <dt>Email: </dt>
+        <dd>
+          <a href="mailto:{components.contact.email}">{components.contact.email}</a>
+        </dd>
+        <dt>Phone: </dt>
+        <dd>
+          <a href="tel:{components.contact.phone}">{components.contact.phone}</a>
+        </dd>
+        <dt>
+          Address:
+        </dt>
+        <dd>{components.contact.address}</dd>
+      </dl>
+      <p>You may be able to discuss issues with your MP in person or online. Contact them for details.</p>
+    </div>
+  </div>
+</section>

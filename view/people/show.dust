@@ -1,11 +1,26 @@
-{! {>"layout"/} !}
+{>"components__{components.cookie-banner}"/}
+{>"components__{components.banner}"/}
+{>"components__{components.header}"/}
+{>"components__{components.top-navigation}"/}
 
-{! {<bodyContent} !}
-{>"{components}"/}
-<h1>{display_name}</h1>
-<p>
-  {current_party} MP for
-  <a href="beta.parliament.uk/{constituency.graph_id}"> {constituency.name} </a>
-</p>
-<img src={image}>
-{! {/bodyContent} !}
+<main>
+  <div class="section--primary" id="content" tabindex="0">
+    <div class="container">
+      <h1>{components.heading1}</h1>
+      <p class="lead">
+        {components.subheading}
+      </p>
+      {>"components__{components.image.template}"/}
+      {>"components__{components.contact.template}"/}
+
+      <section>
+        <div class="container">
+          {>components__roles/}
+          {>components__timeline/}
+        </div>
+      </section>
+
+
+    </div>
+  </div>
+</main>

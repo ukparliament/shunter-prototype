@@ -1,0 +1,13 @@
+<h2>Roles</h2>
+<ul class="list--pipe">
+  {#components.roles}
+    <li>
+      <div class="list--details">
+        <h3 class="milli">{.role-type}</h3>
+        <h4>{.role-title}</h4>
+        {#.role-dates}
+          <p>{.}</p>
+        {/.role-dates}
+    </li>
+  {/components.roles}
+</ul>

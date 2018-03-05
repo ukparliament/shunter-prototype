@@ -1,0 +1,9 @@
+<figure>
+  <a href="{components.image.media-url}">
+    <picture>
+      <source media="(min-width: 480px)" srcset="https://api.parliament.uk/Live/photo/S3bGSTqn.jpeg?crop=CU_5:2&amp;width=732&amp;quality=80, https://api.parliament.uk/Live/photo/S3bGSTqn.jpeg?crop=CU_5:2&amp;width=1464&amp;quality=80 2x">
+      <source srcset="https://api.parliament.uk/Live/photo/S3bGSTqn.jpeg?crop=MCU_3:2&amp;width=444&amp;quality=80, https://api.parliament.uk/Live/photo/S3bGSTqn.jpeg?crop=MCU_3:2&amp;width=888&amp;quality=80 2x">
+      <img src="{components.image.image-src}" alt="{components.image.image-alt}">
+    </picture>
+  </a>
+</figure>
