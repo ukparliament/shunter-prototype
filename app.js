@@ -23,7 +23,7 @@ var app = shunter({
         // },
         "default": {
           "host": "localhost",
-          "port": 3000
+          "port": 5401
         }
       }
     }

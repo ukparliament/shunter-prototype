@@ -5,9 +5,6 @@ A prototype using [Shunter](https://github.com/springernature/shunter/), designe
 ### How to run
 
 1. Clone this repository
-```kernal
-git clone https://github.com/ukparliament/shunter-prototype.git
-```
 
 2. Install required libraries
 ```kernal
