@@ -67,7 +67,7 @@
                 "6 Oct 2016 to present"
               ]
             }
-          ],
+          ]
         },
         {
           "time-period": "Held in the last 10 years",
@@ -97,18 +97,18 @@
               "role-dates": [
                 "16 Jul 1997 to 11 May 2001"
               ]
-            },
+            }
           ]
         },
         {
-          "time-period": "1987"
+          "time-period": 1987
         }
       ]
     },
     "related-links": {
       "website": "http://www.dianeabbott.org.uk/",
       "twitter": "https://twitter.com/HackneyAbbott",
-      "media-url": "/media/S3bGSTqn",
+      "media-url": "/media/S3bGSTqn"
     },
     "footer": "footer"
   }
