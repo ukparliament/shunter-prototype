@@ -12,7 +12,7 @@
           <dd><a href="{.}">{.}</a></dd>
         {/components.related-links.twitter}
       </dl>
-      <p>Diane Abbott’s official portrait is <a href="{components.related-links.media-url}">available to download</a>.</p>
+      <p>{components.related-links.name}’s official portrait is <a href="{components.related-links.media-url}">available to download</a>.</p>
     </div>
   </div>
 </section>

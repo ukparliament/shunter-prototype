@@ -2,28 +2,7 @@
   <div class="container">
     <div class="block">
       <h2>Contact</h2>
-      <div class="dropdown">
-        <div class="dropdown__toggle">
-          <h3>
-            <a href="#">
-              When to contact an MP
-            </a>
-          </h3>
-        </div>
-        <div class="dropdown__content">
-          <p>MPs can help with issues that are the responsibility of UK Parliament. They represent their constituents and can help with issues such as:</p>
-          <ul>
-            <li>hospitals and the NHS</li>
-            <li>problems with benefits, pensions and national insurance</li>
-            <li>immigration</li>
-            <li>school closures and funding</li>
-            <li>transport facilities</li>
-          </ul>
-          <p><a href="/who-should-i-contact-with-my-issue">Who else can help with my issue?</a></p>
-        </div>
-        <p>Please include your postcode when contacting your MP.</p>
-      </div>
-
+      {>"components__{components.when-to-contact.template}"/}
       <dl class="list--definition">
         {#components.contact.contact-points}
           <dt>Email: </dt>
@@ -40,7 +19,7 @@
           {/.addresses}
         {/components.contact.contact-points}
       </dl>
-      <p>You may be able to discuss issues with your MP in person or online. Contact them for details.</p>
+      <p>{components.when-to-contact.text}</p>
     </div>
   </div>
 </section>
