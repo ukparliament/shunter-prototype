@@ -24,4 +24,5 @@
   </section>
 </main>
 
+{>"components__{components.related-links.template}"/}
 {>"components__{components.footer}"/}
