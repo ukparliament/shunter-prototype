@@ -1,8 +1,3 @@
-{>"components__{components.cookie-banner}"/}
-{>"components__{components.banner}"/}
-{>"components__{components.header}"/}
-{>"components__{components.top-navigation}"/}
-
 <main>
   <div class="section--primary" id="content" tabindex="0">
     <div class="container">
@@ -25,4 +20,3 @@
 </main>
 
 {>"components__{components.related-links.template}"/}
-{>"components__{components.footer}"/}
