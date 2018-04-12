@@ -1,0 +1,25 @@
+<section>
+  <div class="container">
+    <div class="block">
+      <h2>Contact</h2>
+      {>"components__{components.when-to-contact.template}"/}
+      <dl class="list--definition">
+        {#components.contact.contact-points}
+          <dt>Email: </dt>
+          <dd>
+            <a href="mailto:{.email}">{.email}</a>
+          </dd>
+          <dt>Phone: </dt>
+          <dd>
+            <a href="tel:{.phone}">{.phone}</a>
+          </dd>
+          <dt>Address: </dt>
+          {#.addresses}
+            <dd>{.}</dd>
+          {/.addresses}
+        {/components.contact.contact-points}
+      </dl>
+      <p>{components.when-to-contact.text}</p>
+    </div>
+  </div>
+</section>
